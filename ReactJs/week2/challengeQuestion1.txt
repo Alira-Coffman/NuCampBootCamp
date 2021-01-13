@@ -1,0 +1,4 @@
+Question #1: What is the meaning of syntactic sugar?
+* makes programming easier to read for humans. 
+Question #2: What is another example of syntactic sugar in JavaScript aside from JSX? 
+https://sophiali.dev/syntactic-sugar-examples-javascript
