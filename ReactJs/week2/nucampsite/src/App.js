@@ -12,7 +12,15 @@ class App extends Component {
     }
     render() {
         return (
-          <Directory campsites={this.state.campsites} />
+            <div className="App">
+                <Navbar dark color="secondary">
+                <div className="container">
+                    <NavbarBrand href="/">NuCamp</NavbarBrand>
+                </div>
+                </Navbar>
+                <Directory campsites={this.state.campsites} />
+
+            </div>
         );
     }
 }
